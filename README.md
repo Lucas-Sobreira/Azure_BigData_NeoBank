@@ -40,11 +40,11 @@ Migrar uma dimensão do DW da Neo Bank utilizando DataBricks e Azure Synapse Ana
 <br>
 
 4) Verificar as modificações as modificações nas tabelas externas
-    - Criando uma tabela externa utilizando apenas um script, através da aba "Linked"
+    - Criando uma tabela externa, utilizando apenas um script com o Pool SQL Dedicado, através da aba "Linked"
     - Consultando os dados da tabela e verificando as transformações realizadas no processo de ELT do Databricks
 
 5) Criar / Carregar, via SQL, uma dimensão no DW do Azure Synapse Studio
-
+    - Dimensão criada e dados carregados utilizando os scripts da pasta Pool_SQL_Dedicado/Dimensao
 
 ## Segurança no acesso aos dados 
 <img src="https://github.com/Lucas-Sobreira/Azure_BigData_NeoBank/blob/main/imgs/Seguranca_Dados.PNG"/>
